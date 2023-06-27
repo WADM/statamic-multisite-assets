@@ -5,8 +5,8 @@ namespace WADM\MultisiteForAssets;
 use Statamic\Events\AssetContainerBlueprintFound;
 use Statamic\Providers\AddonServiceProvider;
 use Statamic\Statamic;
-use Wadm\MultisiteForAssets\Fieldtypes\Alt;
-use Wadm\MultisiteForAssets\Listeners\AppendAltFieldListener;
+use WADM\MultisiteForAssets\Fieldtypes\Alt;
+use WADM\MultisiteForAssets\Listeners\AppendAltFieldListener;
 
 class ServiceProvider extends AddonServiceProvider
 {
