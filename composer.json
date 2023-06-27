@@ -1,0 +1,33 @@
+{
+  "name": "wadm/multisite-for-assets",
+  "description": "Add alt and title field in asset blueprint for each site.",
+  "version": "1.0.0",
+  "type": "statamic-addon",
+  "keywords": [
+    "Statamic",
+    "WADM",
+    "Assets"
+  ],
+  "authors": [
+    {
+      "name": "Rowdy Klijnsmit",
+      "email": "rowdy@wadm.nl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WADM\\MultisiteForAssets\\": "src"
+    }
+  },
+  "extra": {
+    "statamic": {
+      "name": "Multisite for assets",
+      "description": "Add alt and title field in asset blueprint for each site."
+    },
+    "laravel": {
+      "providers": [
+        "WADM\\MultisiteForAssets\\ServiceProvider"
+      ]
+    }
+  }
+}
