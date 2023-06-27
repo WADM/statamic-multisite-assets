@@ -1,6 +1,6 @@
 <?php
 
-namespace Wadm\MultisiteForAssets\Listeners;
+namespace WADM\MultisiteForAssets\Listeners;
 
 use Statamic\Events\AssetContainerBlueprintFound;
 use Statamic\Facades\Site;
