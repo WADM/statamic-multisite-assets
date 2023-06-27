@@ -1,5 +1,5 @@
 {
-  "name": "wadm/multisite-for-assets",
+  "name": "wadm/statamic-multisite-for-assets",
   "description": "Add alt and title field in asset blueprint for each site.",
   "version": "1.0.0",
   "type": "statamic-addon",
